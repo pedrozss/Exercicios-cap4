@@ -1,0 +1,103 @@
+!SESSION 2024-03-21 23:17:11.885 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/pedro/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/pedro/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-21 23:17:12.967
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-21 23:41:10.185
+!MESSAGE Logback config file: /Users/pedro/cp-java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
+!SESSION 2024-03-22 01:16:10.629 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/pedro/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/pedro/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-22 01:16:11.577
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-22 01:16:16.164
+!MESSAGE Logback config file: /Users/pedro/cp-java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
+!SESSION 2024-03-22 05:17:22.208 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/pedro/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/pedro/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-22 05:17:25.913
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-22 05:21:34.312
+!MESSAGE Logback config file: /Users/pedro/cp-java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
+!SESSION 2024-03-23 22:31:32.019 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/pedro/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/pedro/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-23 22:31:34.159
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-23 22:31:48.231
+!MESSAGE Logback config file: /Users/pedro/cp-java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
+!SESSION 2024-03-24 20:56:02.842 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/pedro/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/pedro/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-24 20:56:03.791
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-24 20:56:12.211
+!MESSAGE Logback config file: /Users/pedro/cp-java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.jdt.launching 4 4 2024-03-25 11:16:51.536
+!MESSAGE Main [in Main.java [in <default> [in src [in exercises-seccion4]]]] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): Main [in Main.java [in <default> [in src [in exercises-seccion4]]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.SourceRefElement.getUnderlyingResource(SourceRefElement.java:267)
+	at org.eclipse.jdt.internal.launching.JavaMigrationDelegate.getResource(JavaMigrationDelegate.java:111)
+	at org.eclipse.jdt.internal.launching.JavaMigrationDelegate.updateResourceMapping(JavaMigrationDelegate.java:150)
+	at org.eclipse.jdt.internal.debug.core.refactoring.LaunchConfigurationProjectMainTypeChange.perform(LaunchConfigurationProjectMainTypeChange.java:162)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2448)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2473)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2448)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2473)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-03-25 11:16:51.540
+!MESSAGE Main [in Main.java [in <default> [in src [in exercises-seccion4]]]] does not exist
+
+!ENTRY org.eclipse.jdt.launching 4 107 2024-03-25 11:25:25.579
+!MESSAGE Launch configuration Main (5) references non-existing project exercises-seccion4.
+
+!ENTRY org.eclipse.jdt.launching 4 107 2024-03-25 11:25:58.168
+!MESSAGE Launch configuration Main (5) references non-existing project exercises-seccion4.
+
+!ENTRY org.eclipse.jdt.launching 4 107 2024-03-25 11:26:29.564
+!MESSAGE Launch configuration Main (5) references non-existing project exercises-seccion4.
+
+!ENTRY org.eclipse.jdt.launching 4 107 2024-03-25 11:28:40.867
+!MESSAGE Launch configuration Main (5) references non-existing project exercises-seccion4.
+
+!ENTRY org.eclipse.jdt.launching 4 107 2024-03-25 11:29:09.419
+!MESSAGE Launch configuration Main (5) references non-existing project exercises-seccion4.

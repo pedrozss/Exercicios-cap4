@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String z;
+		int x;
+		double y;
+		
+		z = sc.next();
+		
+		y = sc.nextDouble();
+		
+		x = sc.nextInt();
+		
+		System.out.println("Você digitou: " + x);
+		
+		sc.close();
+
+	}
+
+}

@@ -1,0 +1,16 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		String nome = "Maria";
+		int idade = 40;
+		double salario = 4.000;
+		
+		
+		System.out.printf("%s tem %d anos e ganha R$ %f reais%n" ,nome , idade , salario);
+		
+
+    }
+
+}

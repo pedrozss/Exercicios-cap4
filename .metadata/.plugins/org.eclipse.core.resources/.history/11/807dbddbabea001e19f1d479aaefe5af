@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		double area, raio, pi;
+		
+		raio = sc.nextDouble();
+		pi = 3.141569;
+		
+		area = Math.pow(raio, 2);
+		System.out.println(pi * area);
+		
+
+	}
+
+}

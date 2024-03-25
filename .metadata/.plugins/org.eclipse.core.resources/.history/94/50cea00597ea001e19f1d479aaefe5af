@@ -1,0 +1,17 @@
+
+public class example5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int a;
+		double b;
+		
+		a = 5;
+		b = a;
+		
+		System.out.println(b);
+
+	}
+
+}

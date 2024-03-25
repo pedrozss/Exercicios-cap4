@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int number;
+		double hours, pay, salary;
+		
+		number = sc.nextInt();
+		hours = sc.nextDouble();
+		pay = sc.nextDouble();
+		
+		salary = hours * pay;
+		
+		System.out.printf("O número do funcionário é %d e o salário é de U$%.2f", number ,salary);
+		
+		
+
+	}
+
+}
